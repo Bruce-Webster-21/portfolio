@@ -1,10 +1,25 @@
 .about-me {
   border-radius: 20px;
   padding: 30px;
-  background-color: #22222286;
+  background-color: #3534344d;
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.164);
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
   z-index: 1;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-me {
+    margin: 0 20px;
+  }
+}
+
+.about-me:hover {
+  background-color: #2f2f2f;
+  border: 1px solid rgba(255, 255, 255, 0.123);
+  cursor: default;
 }
 
 .about-me h1 {
