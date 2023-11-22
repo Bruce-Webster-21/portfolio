@@ -27,3 +27,9 @@ main {
   filter: invert(100%);
   width: 60px;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
