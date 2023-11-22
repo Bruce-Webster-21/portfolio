@@ -1,12 +1,14 @@
 .about-me {
   border-radius: 20px;
-  padding: 30px;
-  background-color: #3534344d;
-  backdrop-filter: blur(5px);
+  padding: 20px;
+  background-color: rgb(37, 37, 37);
   border: 1px solid rgba(255, 255, 255, 0);
   transition: 0.3s;
-  z-index: 1;
-
+  z-index: 2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -ms-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -o-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -51,4 +53,13 @@ h2 span {
   gap: 15px;
   letter-spacing: 0.3px;
   text-align: justify;
+}
+
+.about-me .icon {
+  padding-top: 5px;
+  width: 25px;
+}
+
+.about-me .icon:nth-child(1) {
+  height: 32px;
 }
